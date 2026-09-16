@@ -1,18 +1,12 @@
-# Secrets — never commit
 set-env.sh
 set-env.ps1
-**/profiles.yml
-**/profiles_hardcoded_backup.yml
-**/profiles_old.yml
-
-# dbt artifacts
-target/
-target-prod/
-dbt_packages/
+airbnb/profiles.yml
+airbnb/profiles_hardcoded_backup.yml
+airbnb/profiles_old.yml
+airbnb/target*/
+airbnb/dbt_packages/
 logs/
 .user.yml
-
-# Python
 .venv/
 __pycache__/
 *.pyc
